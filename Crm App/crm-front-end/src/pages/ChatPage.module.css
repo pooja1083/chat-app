@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    padding: 1rem;
+    height: calc(100vh - 5rem);
+}
+
+.chat-container{
+    height: 92%;
+    background-color: #FFFFFF;
+}
+
+.cancel-text{
+    padding: 0.7rem 0rem 0rem 1rem;
+    color: #3A3F45;
+}
+
+.chat-container-header{
+    padding: 0rem 0rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+}

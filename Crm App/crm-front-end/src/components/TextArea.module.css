@@ -1,0 +1,43 @@
+.container{
+    padding: 1rem;
+    height: calc(100vh - 26rem);
+}
+
+.text-area-head{
+    border: 1px solid #BABFC5;
+    height: 2rem;
+}
+
+.text-field{
+    height: 84%;
+    border: 1px solid #BABFC5;
+    border-top: none;
+    resize: none;
+    width: calc(100% - 0.38rem);
+    overflow: auto;
+    overflow-x: hidden;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #69727D;
+}
+
+.text-field:focus-visible{
+    border: 1px solid #BABFC5;
+    border-top: none;
+    outline: none;
+}
+
+.btn{
+    position: absolute;
+    z-index: 1;
+    height: 2rem;
+    width: 3rem;
+    bottom: 4rem;
+    left: calc(100% - 6rem);
+    background: #05047E;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

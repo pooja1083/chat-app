@@ -1,0 +1,82 @@
+.container{
+    border-top: 1px solid #D5D8DC;
+    border-bottom: 1px solid #D5D8DC;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+    overflow: auto;
+    height: 8rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #69727D;
+}
+
+.user-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    padding: 0rem 0rem 0.4rem 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.userText{
+    background: #E6F6FF;
+    padding: 0.5rem;
+    max-width: 20rem;
+    line-height: 1.2rem;
+}
+
+.userText-time{
+    padding: 0.3rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.6rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #BABFC5;
+}
+
+
+.response-container{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 1rem;
+}
+
+.supportText{
+    background: #F1F2F3;
+    padding: 0.5rem;
+    max-width: 20rem;
+    line-height: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.supportText-empty{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.supportText-time{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.6rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #BABFC5;
+}
+
+@media (max-height: 500px) {
+    .container{
+        /* border: 1px solid red; */
+        height: 6rem;
+    }
+}  

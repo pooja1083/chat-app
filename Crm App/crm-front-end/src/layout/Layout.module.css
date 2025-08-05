@@ -1,0 +1,13 @@
+.layout{
+    height: calc(100vh - 0rem);
+    
+}
+
+.nav{
+    
+}
+
+.content{
+    /* border: 1px solid red; */
+    display: flex;
+}

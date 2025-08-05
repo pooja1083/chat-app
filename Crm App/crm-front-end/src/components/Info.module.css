@@ -1,0 +1,28 @@
+.parent-container {
+  padding: 0rem 1rem 0.5rem 1rem;
+  font-size: 0.7rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #69727D;
+}
+
+.container {
+  padding: 0.7rem 0rem 0rem 0rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.case-id-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.prod-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
